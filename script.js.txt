@@ -1,0 +1,27 @@
+function calculate() {
+    let name = document.getElementById("name").value;
+    let section = document.getElementById("section").value;
+    let payment = document.getElementById("payment").value;
+
+    let cost = 0;
+
+    if (section == "Army") cost = 12000;
+    else if (section == "Carat") cost = 15000;
+    else if (section == "Neverland") cost = 18000;
+    else if (section == "Royalty") cost = 20000;
+    else if (section == "Fantasy") cost = 22000;
+
+    let total = 0;
+
+    if (payment == "Full") {
+        total = cost - (cost * 0.10);
+    } else {
+        total = cost + (cost * 0.15);
+    }
+
+    document.getElementById("output").innerHTML =
+        "Name: " + name + "<br>" +
+        "Section: " + section + "<br>" +
+        "Payment Type: " + payment + "<br>" +
+        "Total Cost: $" + total;
+}

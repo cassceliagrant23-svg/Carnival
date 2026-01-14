@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Masquerader Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Carnival Masquerader Registration</h1>
+
+    <label>Name:</label>
+    <input type="text" id="name">
+
+    <label>Section:</label>
+    <select id="section">
+        <option>Army</option>
+        <option>Carat</option>
+        <option>Neverland</option>
+        <option>Royalty</option>
+        <option>Fantasy</option>
+    </select>
+
+    <label>Payment Type:</label>
+    <select id="payment">
+        <option>Full</option>
+        <option>Installments</option>
+    </select>
+
+    <button onclick="calculate()">Register</button>
+
+    <div id="output"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

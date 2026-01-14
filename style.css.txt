@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(to right, #5f2c82, #49a09d);
+    font-family: Arial;
+}
+
+.container {
+    background: white;
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h1 {
+    color: purple;
+}
+
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    background: purple;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+#output {
+    margin-top: 20px;
+    color: blue;
+    font-weight: bold;
+}
