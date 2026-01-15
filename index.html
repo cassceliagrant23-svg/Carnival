@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnival Masqueraders - Mas Band Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <h1 class="band-name">🎉 Carnival Masqueraders 🎉</h1>
+            <p class="tagline">Official Mas Band Management System</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#about" class="nav-link">About Us</a>
+            <a href="#sections" class="nav-link">Sections</a>
+            <a href="#register" class="nav-link">Register</a>
+            <a href="#calculator" class="nav-link">Calculator</a>
+            <a href="mailto:info@carnivalmasqueraders.com" class="nav-link">Contact</a>
+            <a href="#past-carnival" class="nav-link">Past Carnivals</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <h2>About Carnival Masqueraders</h2>
+            <p>Welcome to Carnival Masqueraders, the premier mas band in Trinidad and Tobago Carnival celebrations. 
+            We bring vibrant energy, stunning costumes, and unforgettable experiences to thousands of masqueraders every year.</p>
+            <p>With over 20 years of tradition, we offer five unique costume sections designed to let every masquerader 
+            express their carnival spirit. Join us and be part of the magic!</p>
+        </section>
+
+        <!-- Costume Sections -->
+        <section id="sections" class="sections-container">
+            <h2>Our Five Costume Sections</h2>
+            <div class="sections-grid">
+                <div class="section-card">
+                    <div class="section-header">
+                        <h3>Army</h3>
+                        <span class="price-badge">$160</span>
+                    </div>
+                    <p>Bold and powerful military-inspired theme with commanding presence.</p>
+                    <ul class="section-features">
+                        <li>✓ Military-style costume</li>
+                        <li>✓ Headpiece with insignia</li>
+                        <li>✓ Accessories</li>
+                    </ul>
+                </div>
+
+                <div class="section-card">
+                    <div class="section-header">
+                        <h3>Bells</h3>
+                        <span class="price-badge">$240</span>
+                    </div>
+                    <p>Joyful melodic theme with shimmering bells and musical elements.</p>
+                    <ul class="section-features">
+                        <li>✓ Bell-adorned costume</li>
+                        <li>✓ Musical headpiece</li>
+                        <li>✓ Shimmering accents</li>
+                    </ul>
+                </div>
+
+                <div class="section-card">
+                    <div class="section-header">
+                        <h3>Neverland</h3>
+                        <span class="price-badge">$310</span>
+                    </div>
+                    <p>Magical fantasy theme with whimsical designs and enchanted elements.</p>
+                    <ul class="section-features">
+                        <li>✓ Fantasy costume</li>
+                        <li>✓ Magical wings</li>
+                        <li>✓ Enchanted details</li>
+                    </ul>
+                </div>
+
+                <div class="section-card">
+                    <div class="section-header">
+                        <h3>Carat</h3>
+                        <span class="price-badge">$370</span>
+                    </div>
+                    <p>Luxury jewel-inspired design with sparkling diamonds and precious details.</p>
+                    <ul class="section-features">
+                        <li>✓ Jeweled costume</li>
+                        <li>✓ Diamond accents</li>
+                        <li>✓ Premium headpiece</li>
+                    </ul>
+                </div>
+
+                <div class="section-card">
+                    <div class="section-header">
+                        <h3>Engene</h3>
+                        <span class="price-badge">$425</span>
+                    </div>
+                    <p>Ultimate premium experience with exclusive design and VIP treatment.</p>
+                    <ul class="section-features">
+                        <li>✓ Supreme costume</li>
+                        <li>✓ Custom design</li>
+                        <li>✓ VIP benefits</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Payment Information -->
+        <section class="payment-info">
+            <h2>Payment Options</h2>
+            <div class="payment-options">
+                <div class="payment-card full-payment">
+                    <h3>Full Payment</h3>
+                    <p class="benefit">💰 10% Discount Applied</p>
+                    <p>Pay the complete costume price upfront and save 10%!</p>
+                </div>
+                <div class="payment-card installment-payment">
+                    <h3>3 Installments</h3>
+                    <p class="benefit">📅 Flexible Payments</p>
+                    <p>Pay in three equal installments with 15% interest added.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Registration Form -->
+        <section id="register" class="register-section">
+            <h2>Register as a Masquerader</h2>
+            <form id="registrationForm" class="registration-form">
+                <div class="form-group">
+                    <label for="masqueraderName">Masquerader Name *</label>
+                    <input type="text" id="masqueraderName" required placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="costumeCost">Select Section (by Costume Price) *</label>
+                    <select id="costumeCost" required>
+                        <option value="">-- Choose a Section --</option>
+                        <option value="160">Army - $160</option>
+                        <option value="240">Bells - $240</option>
+                        <option value="310">Neverland - $310</option>
+                        <option value="370">Carat - $370</option>
+                        <option value="425">Engene - $425</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="paymentType">Payment Type *</label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="paymentType" value="full" required>
+                            Full Payment (10% Discount)
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="paymentType" value="installment">
+                            3 Installments (15% Interest)
+                        </label>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-submit">Register & Calculate Payment</button>
+            </form>
+        </section>
+
+        <!-- Payment Calculator -->
+        <section id="calculator" class="calculator-section">
+            <h2>Payment Calculator</h2>
+            <div id="calculatorOutput" class="calculator-output"></div>
+        </section>
+
+        <!-- Results Display -->
+        <section id="results" class="results-section" style="display: none;">
+            <h2>Registered Masqueraders & Section Summary</h2>
+            
+            <!-- Masqueraders List -->
+            <div class="results-container">
+                <div class="masqueraders-list">
+                    <h3>Registered Masqueraders</h3>
+                    <table id="masqueradersTable" class="results-table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Section</th>
+                                <th>Costume Price</th>
+                                <th>Payment Type</th>
+                                <th>Amount to Pay</th>
+                            </tr>
+                        </thead>
+                        <tbody id="masqueradersBody">
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Section Summary -->
+                <div class="section-summary">
+                    <h3>Section Summary</h3>
+                    <div id="sectionSummary" class="summary-grid">
+                    </div>
+                </div>
+
+                <!-- Total Summary -->
+                <div class="total-summary">
+                    <h3>Overall Statistics</h3>
+                    <div class="summary-stats">
+                        <div class="stat-item">
+                            <span class="stat-label">Total Masqueraders:</span>
+                            <span class="stat-value" id="totalMasqueraders">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Total Income:</span>
+                            <span class="stat-value" id="totalIncome">$0.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Clear Button -->
+            <div class="action-buttons">
+                <button class="btn-clear" onclick="clearAllData()">Clear All Data</button>
+            </div>
+        </section>
+
+        <!-- Past Carnivals -->
+        <section id="past-carnival" class="past-carnival-section">
+            <h2>Past Carnivals</h2>
+            <div class="past-carnival-grid">
+                <div class="past-carnival-card">
+                    <h4>2024 Carnival</h4>
+                    <p>🎊 "Colors of Unity"</p>
+                    <p class="stat">2,500+ Masqueraders</p>
+                </div>
+                <div class="past-carnival-card">
+                    <h4>2023 Carnival</h4>
+                    <p>🎭 "Legends Live"</p>
+                    <p class="stat">2,200+ Masqueraders</p>
+                </div>
+                <div class="past-carnival-card">
+                    <h4>2022 Carnival</h4>
+                    <p>✨ "Magic Reborn"</p>
+                    <p class="stat">2,100+ Masqueraders</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Carnival Masqueraders. All rights reserved.</p>
+            <p>Email: <a href="mailto:info@carnivalmasqueraders.com">info@carnivalmasqueraders.com</a></p>
+            <p>Celebrating Caribbean Culture | Trinidad & Tobago</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="queries.js"></script>
+</body>
+</html>

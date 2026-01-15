@@ -1,0 +1,828 @@
+{
+  "sections": [
+    {
+      "SectionID": 1,
+      "SectionName": "Army",
+      "CostumePrice": 160,
+      "InclusiveFee": 25
+    },
+    {
+      "SectionID": 2,
+      "SectionName": "Bells",
+      "CostumePrice": 240,
+      "InclusiveFee": 35
+    },
+    {
+      "SectionID": 3,
+      "SectionName": "Neverland",
+      "CostumePrice": 310,
+      "InclusiveFee": 45
+    },
+    {
+      "SectionID": 4,
+      "SectionName": "Carat",
+      "CostumePrice": 370,
+      "InclusiveFee": 50
+    },
+    {
+      "SectionID": 5,
+      "SectionName": "Engene",
+      "CostumePrice": 425,
+      "InclusiveFee": 60
+    }
+  ],
+  "masqueraders": [
+    {
+      "MasqID": 1,
+      "FullName": "Akeem Williams",
+      "Sex": "M",
+      "Age": 28,
+      "Address": "12 Hope Road, Kingston",
+      "Phone": "876-555-0101",
+      "Size": "L",
+      "SectionID": 1
+    },
+    {
+      "MasqID": 2,
+      "FullName": "Brianna Thompson",
+      "Sex": "F",
+      "Age": 25,
+      "Address": "45 Half Way Tree Road, Kingston",
+      "Phone": "876-555-0102",
+      "Size": "M",
+      "SectionID": 1
+    },
+    {
+      "MasqID": 3,
+      "FullName": "Clayton Brown",
+      "Sex": "M",
+      "Age": 32,
+      "Address": "78 Constant Spring Road, Kingston",
+      "Phone": "876-555-0103",
+      "Size": "XL",
+      "SectionID": 1
+    },
+    {
+      "MasqID": 4,
+      "FullName": "Diana Johnson",
+      "Sex": "F",
+      "Age": 29,
+      "Address": "23 Mona Avenue, Kingston",
+      "Phone": "876-555-0104",
+      "Size": "S",
+      "SectionID": 1
+    },
+    {
+      "MasqID": 5,
+      "FullName": "Everton Davis",
+      "Sex": "M",
+      "Age": 35,
+      "Address": "90 Old Hope Road, Kingston",
+      "Phone": "876-555-0105",
+      "Size": "XL",
+      "SectionID": 1
+    },
+    {
+      "MasqID": 6,
+      "FullName": "Fiona Murphy",
+      "Sex": "F",
+      "Age": 27,
+      "Address": "56 Camp Road, Kingston",
+      "Phone": "876-555-0106",
+      "Size": "M",
+      "SectionID": 1
+    },
+    {
+      "MasqID": 7,
+      "FullName": "Gregory Campbell",
+      "Sex": "M",
+      "Age": 30,
+      "Address": "34 South Road, Kingston",
+      "Phone": "876-555-0107",
+      "Size": "L",
+      "SectionID": 1
+    },
+    {
+      "MasqID": 8,
+      "FullName": "Hermione Wilson",
+      "Sex": "F",
+      "Age": 24,
+      "Address": "67 Windermere Avenue, Kingston",
+      "Phone": "876-555-0108",
+      "Size": "XS",
+      "SectionID": 1
+    },
+    {
+      "MasqID": 9,
+      "FullName": "Isaiah Garcia",
+      "Sex": "M",
+      "Age": 26,
+      "Address": "11 Lady Musgrave Road, Kingston",
+      "Phone": "876-555-0109",
+      "Size": "M",
+      "SectionID": 1
+    },
+    {
+      "MasqID": 10,
+      "FullName": "Jennifer Smith",
+      "Sex": "F",
+      "Age": 31,
+      "Address": "88 Duke Street, Kingston",
+      "Phone": "876-555-0110",
+      "Size": "L",
+      "SectionID": 1
+    },
+    {
+      "MasqID": 11,
+      "FullName": "Kwame Mitchell",
+      "Sex": "M",
+      "Age": 29,
+      "Address": "42 Ocean Boulevard, Kingston",
+      "Phone": "876-555-0111",
+      "Size": "L",
+      "SectionID": 1
+    },
+    {
+      "MasqID": 12,
+      "FullName": "Lauren Brown",
+      "Sex": "F",
+      "Age": 28,
+      "Address": "75 Knutsford Boulevard, Kingston",
+      "Phone": "876-555-0112",
+      "Size": "M",
+      "SectionID": 1
+    },
+    {
+      "MasqID": 13,
+      "FullName": "Marcus Powell",
+      "Sex": "M",
+      "Age": 27,
+      "Address": "19 New Street, Kingston",
+      "Phone": "876-555-0113",
+      "Size": "M",
+      "SectionID": 1
+    },
+    {
+      "MasqID": 14,
+      "FullName": "Nicole Anderson",
+      "Sex": "F",
+      "Age": 26,
+      "Address": "50 King Street, Kingston",
+      "Phone": "876-555-0114",
+      "Size": "S",
+      "SectionID": 1
+    },
+    {
+      "MasqID": 15,
+      "FullName": "Omar Stewart",
+      "Sex": "M",
+      "Age": 33,
+      "Address": "63 East Street, Kingston",
+      "Phone": "876-555-0115",
+      "Size": "XL",
+      "SectionID": 1
+    },
+    {
+      "MasqID": 16,
+      "FullName": "Patricia Holmes",
+      "Sex": "F",
+      "Age": 30,
+      "Address": "27 Mountain View Avenue, Kingston",
+      "Phone": "876-555-0201",
+      "Size": "M",
+      "SectionID": 2
+    },
+    {
+      "MasqID": 17,
+      "FullName": "Quentin Reid",
+      "Sex": "M",
+      "Age": 28,
+      "Address": "84 Papine Road, Kingston",
+      "Phone": "876-555-0202",
+      "Size": "L",
+      "SectionID": 2
+    },
+    {
+      "MasqID": 18,
+      "FullName": "Rachel Bennett",
+      "Sex": "F",
+      "Age": 25,
+      "Address": "31 Meadowbrook Road, Kingston",
+      "Phone": "876-555-0203",
+      "Size": "XS",
+      "SectionID": 2
+    },
+    {
+      "MasqID": 19,
+      "FullName": "Samuel Martin",
+      "Sex": "M",
+      "Age": 34,
+      "Address": "55 Buena Vista Road, Kingston",
+      "Phone": "876-555-0204",
+      "Size": "XL",
+      "SectionID": 2
+    },
+    {
+      "MasqID": 20,
+      "FullName": "Tanya Lewis",
+      "Sex": "F",
+      "Age": 29,
+      "Address": "76 Silver Street, Kingston",
+      "Phone": "876-555-0205",
+      "Size": "M",
+      "SectionID": 2
+    },
+    {
+      "MasqID": 21,
+      "FullName": "Usman Ahmed",
+      "Sex": "M",
+      "Age": 31,
+      "Address": "39 Commerce Street, Kingston",
+      "Phone": "876-555-0206",
+      "Size": "L",
+      "SectionID": 2
+    },
+    {
+      "MasqID": 22,
+      "FullName": "Vanessa Taylor",
+      "Sex": "F",
+      "Age": 24,
+      "Address": "62 Slipe Road, Kingston",
+      "Phone": "876-555-0207",
+      "Size": "S",
+      "SectionID": 2
+    },
+    {
+      "MasqID": 23,
+      "FullName": "Vincent Moore",
+      "Sex": "M",
+      "Age": 26,
+      "Address": "48 Water Lane, Kingston",
+      "Phone": "876-555-0208",
+      "Size": "M",
+      "SectionID": 2
+    },
+    {
+      "MasqID": 24,
+      "FullName": "Whitney Jackson",
+      "Sex": "F",
+      "Age": 27,
+      "Address": "71 Retirement Road, Kingston",
+      "Phone": "876-555-0209",
+      "Size": "M",
+      "SectionID": 2
+    },
+    {
+      "MasqID": 25,
+      "FullName": "Xavier White",
+      "Sex": "M",
+      "Age": 30,
+      "Address": "44 Hanover Street, Kingston",
+      "Phone": "876-555-0210",
+      "Size": "L",
+      "SectionID": 2
+    },
+    {
+      "MasqID": 26,
+      "FullName": "Yasmine Harris",
+      "Sex": "F",
+      "Age": 28,
+      "Address": "18 Sutherland Street, Kingston",
+      "Phone": "876-555-0211",
+      "Size": "M",
+      "SectionID": 2
+    },
+    {
+      "MasqID": 27,
+      "FullName": "Zachary Green",
+      "Sex": "M",
+      "Age": 25,
+      "Address": "37 Princess Street, Kingston",
+      "Phone": "876-555-0212",
+      "Size": "M",
+      "SectionID": 2
+    },
+    {
+      "MasqID": 28,
+      "FullName": "Amanda Clark",
+      "Sex": "F",
+      "Age": 32,
+      "Address": "52 Barry Street, Kingston",
+      "Phone": "876-555-0213",
+      "Size": "L",
+      "SectionID": 2
+    },
+    {
+      "MasqID": 29,
+      "FullName": "Benjamin Miller",
+      "Sex": "M",
+      "Age": 29,
+      "Address": "65 Harbour Street, Kingston",
+      "Phone": "876-555-0214",
+      "Size": "L",
+      "SectionID": 2
+    },
+    {
+      "MasqID": 30,
+      "FullName": "Chloe Scott",
+      "Sex": "F",
+      "Age": 26,
+      "Address": "73 Law Street, Kingston",
+      "Phone": "876-555-0215",
+      "Size": "S",
+      "SectionID": 2
+    },
+    {
+      "MasqID": 31,
+      "FullName": "Daniel Price",
+      "Sex": "M",
+      "Age": 27,
+      "Address": "21 East King Street, Kingston",
+      "Phone": "876-555-0301",
+      "Size": "M",
+      "SectionID": 3
+    },
+    {
+      "MasqID": 32,
+      "FullName": "Emma Robinson",
+      "Sex": "F",
+      "Age": 23,
+      "Address": "36 Tower Street, Kingston",
+      "Phone": "876-555-0302",
+      "Size": "XS",
+      "SectionID": 3
+    },
+    {
+      "MasqID": 33,
+      "FullName": "Ethan Bell",
+      "Sex": "M",
+      "Age": 30,
+      "Address": "49 Strand Street, Kingston",
+      "Phone": "876-555-0303",
+      "Size": "L",
+      "SectionID": 3
+    },
+    {
+      "MasqID": 34,
+      "FullName": "Felicity Palmer",
+      "Sex": "F",
+      "Age": 28,
+      "Address": "68 Port Royal Street, Kingston",
+      "Phone": "876-555-0304",
+      "Size": "M",
+      "SectionID": 3
+    },
+    {
+      "MasqID": 35,
+      "FullName": "Gabriel Lopez",
+      "Sex": "M",
+      "Age": 31,
+      "Address": "22 Orange Street, Kingston",
+      "Phone": "876-555-0305",
+      "Size": "XL",
+      "SectionID": 3
+    },
+    {
+      "MasqID": 36,
+      "FullName": "Grace Murphy",
+      "Sex": "F",
+      "Age": 26,
+      "Address": "40 Church Street, Kingston",
+      "Phone": "876-555-0306",
+      "Size": "S",
+      "SectionID": 3
+    },
+    {
+      "MasqID": 37,
+      "FullName": "Henry Carter",
+      "Sex": "M",
+      "Age": 29,
+      "Address": "57 Spanish Town Road, Kingston",
+      "Phone": "876-555-0307",
+      "Size": "L",
+      "SectionID": 3
+    },
+    {
+      "MasqID": 38,
+      "FullName": "Isla Morgan",
+      "Sex": "F",
+      "Age": 24,
+      "Address": "83 Guanabana Avenue, Kingston",
+      "Phone": "876-555-0308",
+      "Size": "XS",
+      "SectionID": 3
+    },
+    {
+      "MasqID": 39,
+      "FullName": "Julian Fletcher",
+      "Sex": "M",
+      "Age": 33,
+      "Address": "15 Trafalgar Road, Kingston",
+      "Phone": "876-555-0309",
+      "Size": "XL",
+      "SectionID": 3
+    },
+    {
+      "MasqID": 40,
+      "FullName": "Kiara Francis",
+      "Sex": "F",
+      "Age": 25,
+      "Address": "38 National Avenue, Kingston",
+      "Phone": "876-555-0310",
+      "Size": "M",
+      "SectionID": 3
+    },
+    {
+      "MasqID": 41,
+      "FullName": "Leon Richardson",
+      "Sex": "M",
+      "Age": 28,
+      "Address": "61 Lyndhurst Road, Kingston",
+      "Phone": "876-555-0311",
+      "Size": "M",
+      "SectionID": 3
+    },
+    {
+      "MasqID": 42,
+      "FullName": "Luna Edwards",
+      "Sex": "F",
+      "Age": 30,
+      "Address": "74 Ruthven Road, Kingston",
+      "Phone": "876-555-0312",
+      "Size": "L",
+      "SectionID": 3
+    },
+    {
+      "MasqID": 43,
+      "FullName": "Marcus Stone",
+      "Sex": "M",
+      "Age": 26,
+      "Address": "19 Mahoe Avenue, Kingston",
+      "Phone": "876-555-0313",
+      "Size": "M",
+      "SectionID": 3
+    },
+    {
+      "MasqID": 44,
+      "FullName": "Monica Harper",
+      "Sex": "F",
+      "Age": 27,
+      "Address": "47 Acacia Avenue, Kingston",
+      "Phone": "876-555-0314",
+      "Size": "M",
+      "SectionID": 3
+    },
+    {
+      "MasqID": 45,
+      "FullName": "Nathan Turner",
+      "Sex": "M",
+      "Age": 32,
+      "Address": "60 Flamingo Drive, Kingston",
+      "Phone": "876-555-0315",
+      "Size": "XL",
+      "SectionID": 3
+    },
+    {
+      "MasqID": 46,
+      "FullName": "Olivia Costa",
+      "Sex": "F",
+      "Age": 29,
+      "Address": "25 Parkway Drive, Kingston",
+      "Phone": "876-555-0401",
+      "Size": "M",
+      "SectionID": 4
+    },
+    {
+      "MasqID": 47,
+      "FullName": "Patrick Davis",
+      "Sex": "M",
+      "Age": 34,
+      "Address": "30 Bamboo Walk, Kingston",
+      "Phone": "876-555-0402",
+      "Size": "XL",
+      "SectionID": 4
+    },
+    {
+      "MasqID": 48,
+      "FullName": "Quinn Sullivan",
+      "Sex": "F",
+      "Age": 26,
+      "Address": "43 Jamaica Crescent, Kingston",
+      "Phone": "876-555-0403",
+      "Size": "S",
+      "SectionID": 4
+    },
+    {
+      "MasqID": 49,
+      "FullName": "Richard Grant",
+      "Sex": "M",
+      "Age": 28,
+      "Address": "58 Pepper Lane, Kingston",
+      "Phone": "876-555-0404",
+      "Size": "L",
+      "SectionID": 4
+    },
+    {
+      "MasqID": 50,
+      "FullName": "Sofia Rodriguez",
+      "Sex": "F",
+      "Age": 31,
+      "Address": "69 Tangerine Road, Kingston",
+      "Phone": "876-555-0405",
+      "Size": "M",
+      "SectionID": 4
+    },
+    {
+      "MasqID": 51,
+      "FullName": "Thomas Owen",
+      "Sex": "M",
+      "Age": 30,
+      "Address": "77 Mango Tree Drive, Kingston",
+      "Phone": "876-555-0406",
+      "Size": "L",
+      "SectionID": 4
+    },
+    {
+      "MasqID": 52,
+      "FullName": "Ursula Mitchell",
+      "Sex": "F",
+      "Age": 24,
+      "Address": "14 Orchid Lane, Kingston",
+      "Phone": "876-555-0407",
+      "Size": "XS",
+      "SectionID": 4
+    },
+    {
+      "MasqID": 53,
+      "FullName": "Victor Powell",
+      "Sex": "M",
+      "Age": 27,
+      "Address": "53 Cacao Road, Kingston",
+      "Phone": "876-555-0408",
+      "Size": "M",
+      "SectionID": 4
+    },
+    {
+      "MasqID": 54,
+      "FullName": "Victoria King",
+      "Sex": "F",
+      "Age": 25,
+      "Address": "35 Nutmeg Street, Kingston",
+      "Phone": "876-555-0409",
+      "Size": "S",
+      "SectionID": 4
+    },
+    {
+      "MasqID": 55,
+      "FullName": "Walter Lewis",
+      "Sex": "M",
+      "Age": 29,
+      "Address": "72 Ginger Avenue, Kingston",
+      "Phone": "876-555-0410",
+      "Size": "L",
+      "SectionID": 4
+    },
+    {
+      "MasqID": 56,
+      "FullName": "Wendy Abbott",
+      "Sex": "F",
+      "Age": 28,
+      "Address": "12 Clove Street, Kingston",
+      "Phone": "876-555-0411",
+      "Size": "M",
+      "SectionID": 4
+    },
+    {
+      "MasqID": 57,
+      "FullName": "William Knight",
+      "Sex": "M",
+      "Age": 35,
+      "Address": "41 Cardamom Road, Kingston",
+      "Phone": "876-555-0412",
+      "Size": "XL",
+      "SectionID": 4
+    },
+    {
+      "MasqID": 58,
+      "FullName": "Xenia Harper",
+      "Sex": "F",
+      "Age": 30,
+      "Address": "64 Saffron Lane, Kingston",
+      "Phone": "876-555-0413",
+      "Size": "L",
+      "SectionID": 4
+    },
+    {
+      "MasqID": 59,
+      "FullName": "Ximena Ford",
+      "Sex": "F",
+      "Age": 27,
+      "Address": "20 Vanilla Drive, Kingston",
+      "Phone": "876-555-0414",
+      "Size": "M",
+      "SectionID": 4
+    },
+    {
+      "MasqID": 60,
+      "FullName": "Xavier Leonard",
+      "Sex": "M",
+      "Age": 26,
+      "Address": "32 Anise Street, Kingston",
+      "Phone": "876-555-0415",
+      "Size": "M",
+      "SectionID": 4
+    },
+    {
+      "MasqID": 61,
+      "FullName": "Yara Jenkins",
+      "Sex": "F",
+      "Age": 23,
+      "Address": "51 Basil Road, Kingston",
+      "Phone": "876-555-0501",
+      "Size": "XS",
+      "SectionID": 5
+    },
+    {
+      "MasqID": 62,
+      "FullName": "Yusuf Hassan",
+      "Sex": "M",
+      "Age": 29,
+      "Address": "70 Rosemary Lane, Kingston",
+      "Phone": "876-555-0502",
+      "Size": "L",
+      "SectionID": 5
+    },
+    {
+      "MasqID": 63,
+      "FullName": "Zara Thompson",
+      "Sex": "F",
+      "Age": 26,
+      "Address": "17 Sage Street, Kingston",
+      "Phone": "876-555-0503",
+      "Size": "M",
+      "SectionID": 5
+    },
+    {
+      "MasqID": 64,
+      "FullName": "Ziggy Morrison",
+      "Sex": "M",
+      "Age": 31,
+      "Address": "45 Mint Drive, Kingston",
+      "Phone": "876-555-0504",
+      "Size": "XL",
+      "SectionID": 5
+    },
+    {
+      "MasqID": 65,
+      "FullName": "Zoe Parker",
+      "Sex": "F",
+      "Age": 28,
+      "Address": "66 Thyme Road, Kingston",
+      "Phone": "876-555-0505",
+      "Size": "M",
+      "SectionID": 5
+    },
+    {
+      "MasqID": 66,
+      "FullName": "Zion Campbell",
+      "Sex": "M",
+      "Age": 24,
+      "Address": "29 Cumin Lane, Kingston",
+      "Phone": "876-555-0506",
+      "Size": "M",
+      "SectionID": 5
+    },
+    {
+      "MasqID": 67,
+      "FullName": "Zoey Bennett",
+      "Sex": "F",
+      "Age": 27,
+      "Address": "54 Parsley Drive, Kingston",
+      "Phone": "876-555-0507",
+      "Size": "M",
+      "SectionID": 5
+    },
+    {
+      "MasqID": 68,
+      "FullName": "Zeke Robinson",
+      "Sex": "M",
+      "Age": 33,
+      "Address": "11 Oregano Street, Kingston",
+      "Phone": "876-555-0508",
+      "Size": "XL",
+      "SectionID": 5
+    },
+    {
+      "MasqID": 69,
+      "FullName": "Zenobia Hayes",
+      "Sex": "F",
+      "Age": 30,
+      "Address": "80 Cilantro Road, Kingston",
+      "Phone": "876-555-0509",
+      "Size": "L",
+      "SectionID": 5
+    },
+    {
+      "MasqID": 70,
+      "FullName": "Zeno Walsh",
+      "Sex": "M",
+      "Age": 28,
+      "Address": "26 Dill Lane, Kingston",
+      "Phone": "876-555-0510",
+      "Size": "L",
+      "SectionID": 5
+    },
+    {
+      "MasqID": 71,
+      "FullName": "Zelda Richards",
+      "Sex": "F",
+      "Age": 25,
+      "Address": "39 Chives Street, Kingston",
+      "Phone": "876-555-0511",
+      "Size": "S",
+      "SectionID": 5
+    },
+    {
+      "MasqID": 72,
+      "FullName": "Zander Webb",
+      "Sex": "M",
+      "Age": 30,
+      "Address": "46 Fennel Avenue, Kingston",
+      "Phone": "876-555-0512",
+      "Size": "L",
+      "SectionID": 5
+    },
+    {
+      "MasqID": 73,
+      "FullName": "Zsara Cotton",
+      "Sex": "F",
+      "Age": 29,
+      "Address": "59 Tarragon Road, Kingston",
+      "Phone": "876-555-0513",
+      "Size": "M",
+      "SectionID": 5
+    },
+    {
+      "MasqID": 74,
+      "FullName": "Zeke Thomas",
+      "Sex": "M",
+      "Age": 27,
+      "Address": "13 Chili Street, Kingston",
+      "Phone": "876-555-0514",
+      "Size": "M",
+      "SectionID": 5
+    },
+    {
+      "MasqID": 75,
+      "FullName": "Zarina Wilson",
+      "Sex": "F",
+      "Age": 24,
+      "Address": "82 Paprika Lane, Kingston",
+      "Phone": "876-555-0515",
+      "Size": "XS",
+      "SectionID": 5
+    }
+  ],
+  "payments": [
+    {
+      "PaymentID": 1,
+      "MasqID": 1,
+      "PaymentType": "Full",
+      "TotalCost": 185,
+      "AmountPaid": 166.50,
+      "Balance": 0
+    },
+    {
+      "PaymentID": 2,
+      "MasqID": 2,
+      "PaymentType": "Installment",
+      "TotalCost": 185,
+      "AmountPaid": 61.67,
+      "Balance": 123.33
+    },
+    {
+      "PaymentID": 3,
+      "MasqID": 3,
+      "PaymentType": "Full",
+      "TotalCost": 185,
+      "AmountPaid": 166.50,
+      "Balance": 0
+    },
+    {
+      "PaymentID": 4,
+      "MasqID": 4,
+      "PaymentType": "Installment",
+      "TotalCost": 185,
+      "AmountPaid": 61.67,
+      "Balance": 123.33
+    },
+    {
+      "PaymentID": 5,
+      "MasqID": 5,
+      "PaymentType": "Full",
+      "TotalCost": 185,
+      "AmountPaid": 166.50,
+      "Balance": 0
+    }
+  ]
+}
